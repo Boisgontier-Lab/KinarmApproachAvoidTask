@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<task_protocol>
+	<analog_inputs>[]</analog_inputs>
+	<analog_inputs_row_count>0</analog_inputs_row_count>
+	<binary_data>[]</binary_data>
+	<binary_data_defs>[]</binary_data_defs>
+	<blocktable>[['13-24', 4, '', True, 1], 
+		['13-24', 4, '', True, 1], 
+		['1-12', 4, '', True, 1], 
+		['1-12', 4, '', True, 1]]</blocktable>
+	<blocktable_row_count>50</blocktable_row_count>
+	<code>'AAT'</code>
+	<data_rate>1000</data_rate>
+	<description>'Approach Avoid Task'</description>
+	<feedback_mode>3</feedback_mode>
+	<gaze_feedback_mode>0</gaze_feedback_mode>
+	<instructions>''</instructions>
+	<instructions_default>''</instructions_default>
+	<last_modified>'2024-05-24  09:59 AM'</last_modified>
+	<loadtable>[[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]</loadtable>
+	<loadtable_defs>[]</loadtable_defs>
+	<loadtable_row_count>20</loadtable_row_count>
+	<name>'AAT_Settings_NoSandwich'</name>
+	<parent>''</parent>
+	<pause_behaviour>0</pause_behaviour>
+	<random_seed>1</random_seed>
+	<save_binary_data>False</save_binary_data>
+	<targetfor>['Handle', ['Active', 0, -42], False]</targetfor>
+	<targetfor_ep>['Robot Origin Midpoint', ['None'], True]</targetfor_ep>
+	<targetfor_exo>('Fingertip', ['Active', 30, 90], True)</targetfor_exo>
+	<targettable>[[0.0, -37.0, 1.0, 0.0, 0.0, '255255255', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 10.0, 0.0, 0.0, '000000000', '174000000', '', 0.0, 0.25, '0', '0'], 
+		[0.0, -37.0, 1.0, 0.0, 0.0, '000000000', '000193000', '', 0.0, 0.25, '0', '0'], 
+		[0.0, -35.0, 0.0, 0.0, 0.0, '000000000', '000193000', 'Move here to start', 1.5, 0.0, '0', '0'], 
+		[0.0, -35.0, 0.0, 0.0, 0.0, '000000000', '255000000', 'Incorrect', 2.0, 0.0, '0', '0'], 
+		[0.0, -35.0, 0.0, 0.0, 0.0, '000000000', '255000000', 'Too Slow', 2.0, 0.0, '0', '0'], 
+		[0.0, -20.0, 0.0, 32.0, 16.0, 'activeapproach.png', 'activeavoid.png', '', 0.0, 0.0, 'circapproach.jpg', 'circavoid.jpg'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'ap-nat.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'ap-escal.jpg', '0', '', 0.0, 0.0, '000000000', '000000000'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'ap-foot.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'ap-nat.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'ap-rando.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'ap-vel.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'sed-canap.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'sed-hamac.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'sed-jvid.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'sed-lect.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'sed-ordi.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'sed-tv.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'ap-natr.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'ap-randor.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'ap-velr.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'sed-canapr.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'sed-hamacr.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'sed-lectr.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'ap-natc.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'ap-randoc.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'ap-velc.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'sed-canapc.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'sed-hamacc.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -37.0, 3.0, 5.0, 5.0, 'sed-lectc.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '000000000', '000000000', '', 0.0, 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '000000000', '000000000', '', 0.0, 0.0, '0', '0']]</targettable>
+	<targettable_defs>[['X', 'float'], ['Y', 'float'], ['Visual Radius', 'float'], ['Target X Length', 'float'], ['Target Y Length', 'float'], ['Initial Colour', 'colour'], ['Next Colour', 'colour'], ['Label Text', 'label'], ['Label Height', 'float'], ['Stroke Width', 'float'], ['Third Colour', 'colour'], ['Fourth Colour', 'colour']]</targettable_defs>
+	<targettable_row_count>64</targettable_row_count>
+	<tasklevelparams>[['ADJUST_START', '17.50'], 
+		['CHECK_ORDER_ACTIVE', '1.00'], 
+		['CHECK_ORDER_CIRC', '1.00'], 
+		['ERROR_DELAY', '750.00'], 
+		['MAX_FORCE', '1.5'], 
+		['MAX_FORCE_BG', '0.00'], 
+		['NO_SANDWICH', '1.00'], 
+		['RAMP_DURATION', '100.00'], 
+		['RAND_START_DELAY', '250.00'], 
+		['REACH_TIME', '10000.00'], 
+		['START_HOLD_DELAY', '500.00'], 
+		['SUCCESS_DELAY', '400.00'], 
+		['TARG_DIST', '10.00'], 
+		['TRIAL_TIME', '3000.00']]</tasklevelparams>
+	<tasklevelparams_defs>[['TARG_DIST', 'float'], ['ADJUST_START', 'float'], ['MAX_FORCE', 'float'], ['MAX_FORCE_BG', 'float'], ['RAMP_DURATION', 'float'], ['CHECK_ORDER_CIRC', 'float'], ['CHECK_ORDER_ACTIVE', 'float'], ['START_HOLD_DELAY', 'float'], ['RAND_START_DELAY', 'float'], ['SUCCESS_DELAY', 'float'], ['ERROR_DELAY', 'float'], ['REACH_TIME', 'float'], ['TRIAL_TIME', 'float'], ['NO_SANDWICH', 'float']]</tasklevelparams_defs>
+	<tasklevelparams_row_count>14</tasklevelparams_row_count>
+	<tptable>[[1, 2, 3, 4, 5, 6, 7, 8, 0], 
+		[1, 2, 3, 4, 5, 6, 7, 9, 0], 
+		[1, 2, 3, 4, 5, 6, 7, 10, 0], 
+		[1, 2, 3, 4, 5, 6, 7, 11, 0], 
+		[1, 2, 3, 4, 5, 6, 7, 12, 0], 
+		[1, 2, 3, 4, 5, 6, 7, 13, 0], 
+		[1, 2, 3, 4, 5, 6, 7, 14, 1], 
+		[1, 2, 3, 4, 5, 6, 7, 15, 1], 
+		[1, 2, 3, 4, 5, 6, 7, 16, 1], 
+		[1, 2, 3, 4, 5, 6, 7, 17, 1], 
+		[1, 2, 3, 4, 5, 6, 7, 18, 1], 
+		[1, 2, 3, 4, 5, 6, 7, 19, 1], 
+		[1, 2, 3, 4, 5, 6, 7, 20, 0], 
+		[1, 2, 3, 4, 5, 6, 7, 21, 0], 
+		[1, 2, 3, 4, 5, 6, 7, 22, 0], 
+		[1, 2, 3, 4, 5, 6, 7, 23, 0], 
+		[1, 2, 3, 4, 5, 6, 7, 24, 0], 
+		[1, 2, 3, 4, 5, 6, 7, 25, 0], 
+		[1, 2, 3, 4, 5, 6, 7, 26, 1], 
+		[1, 2, 3, 4, 5, 6, 7, 27, 1], 
+		[1, 2, 3, 4, 5, 6, 7, 28, 1], 
+		[1, 2, 3, 4, 5, 6, 7, 29, 1], 
+		[1, 2, 3, 4, 5, 6, 7, 30, 1], 
+		[1, 2, 3, 4, 5, 6, 7, 31, 1]]</tptable>
+	<tptable_defs>[['Start Target', 'target'], ['Avoid Area', 'target'], ['Begin target', 'target'], ['Begin label', 'target'], ['Error Label', 'target'], ['Slow Label', 'target'], ['Info Target', 'target'], ['Approach Target', 'target'], ['Toggle Field', 'int']]</tptable_defs>
+	<tptable_row_count>100</tptable_row_count>
+	<use_repeat_trial_flag>1</use_repeat_trial_flag>
+	<version>3.9</version>
+	<version_tuple>(3, 10)</version_tuple>
+	<video>''</video>
+</task_protocol>
