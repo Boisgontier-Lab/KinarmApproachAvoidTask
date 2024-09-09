@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<task_protocol>
+	<analog_inputs>[]</analog_inputs>
+	<analog_inputs_row_count>0</analog_inputs_row_count>
+	<binary_data>[]</binary_data>
+	<binary_data_defs>[]</binary_data_defs>
+	<blocktable>[['13-24', 4, '', True, 1], 
+		['1-12', 4, '', True, 1], 
+		['1-12', 4, '', True, 1], 
+		['13-24', 4, '', True, 1]]</blocktable>
+	<blocktable_row_count>50</blocktable_row_count>
+	<code>'KAAT'</code>
+	<data_rate>1000</data_rate>
+	<description>'Kinarm Approach Avoid Task'</description>
+	<feedback_mode>3</feedback_mode>
+	<gaze_feedback_mode>0</gaze_feedback_mode>
+	<instructions>''</instructions>
+	<instructions_default>'This task examines how quickly you can respond to visual input.\nAt the beginning of each block of trials, an instruction image will appear highlighting which images to approach and which to avoid.\nOnce this association is learned, place either cursor into the open green circle to begin. \nEach trial begins with a blue circle that appears in the left or right side of the workspace.\nPlace the hand of the same side there and two targets will appear. One target will be one of the images from the instruction and the other will be an open circle.\nIf the image should be approached then quickly reach towards it. \nIf the image should be avoided then quickly reach in the opposite direction towards the open circle.\nThe task has 4 blocks and should take under 15 minutes to complete.'</instructions_default>
+	<last_modified>'2024-09-04  11:46 AM'</last_modified>
+	<loadtable>[[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]</loadtable>
+	<loadtable_defs>[]</loadtable_defs>
+	<loadtable_row_count>20</loadtable_row_count>
+	<name>'sandwichOrder'</name>
+	<parent>''</parent>
+	<pause_behaviour>0</pause_behaviour>
+	<random_seed>1</random_seed>
+	<save_binary_data>False</save_binary_data>
+	<targetfor>['Handle', ['Active', 0, -42], False]</targetfor>
+	<targetfor_ep>['Robot Origin Midpoint', ['None'], True]</targetfor_ep>
+	<targetfor_exo>('Fingertip', ['Active', 30, 90], True)</targetfor_exo>
+	<targettable>[[0.0, -39.0, 1.0, 0.0, 0.0, '000128255', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, '000000000', '255255255', '', 0.0, 0.2, '0', '0'], 
+		[0.0, -39.0, 1.0, 0.0, 0.0, '000000000', '000202000', '', 0.0, 0.2, '0', '0'], 
+		[0.0, -37.0, 0.0, 0.0, 0.0, '000202000', '255000000', '', 2.0, 0.0, '240240000', '0'], 
+		[0.0, -25.0, 0.0, 32.0, 16.0, 'activeapproach.png', 'activeavoid.png', '', 0.0, 0.0, 'circapproach.jpg', 'circavoid.jpg'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'ap-cour.jpg', '0', '', 0.0, 0.0, '000000000', '000000000'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'ap-escal.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'ap-foot.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'ap-nat.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'ap-rando.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'ap-vel.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'sed-canap.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'sed-hamac.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'sed-jvid.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'sed-lect.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'sed-ordi.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'sed-tv.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'ap-natr.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'ap-randor.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'ap-velr.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'sed-canapr.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'sed-hamacr.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'sed-lectr.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'ap-natc.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'ap-randoc.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'ap-velc.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'sed-canapc.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'sed-hamacc.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, -39.0, 2.5, 0.0, 0.0, 'sed-lectc.jpg', '0', '', 0.0, 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '000000000', '000000000', '', 0.0, 0.0, '000000000', '000000000'], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '000000000', '000000000', '', 0.0, 0.0, '000000000', '000000000'], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '000000000', '000000000', '', 0.0, 0.0, '000000000', '000000000'], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '000000000', '000000000', '', 0.0, 0.0, '0', '0']]</targettable>
+	<targettable_defs>[['X', 'float'], ['Y', 'float'], ['Visual Radius', 'float'], ['Target X Length', 'float'], ['Target Y Length', 'float'], ['Initial Colour', 'colour'], ['Next Colour', 'colour'], ['Label Text', 'label'], ['Label Height', 'float'], ['Stroke Width', 'float'], ['Third Colour', 'colour'], ['Fourth Colour', 'colour']]</targettable_defs>
+	<targettable_row_count>64</targettable_row_count>
+	<tasklevelparams>[['ADJUST_START', '17.50'], 
+		['AVOID_DIST_ADJUST', '100.00'], 
+		['ERROR_DELAY', '750.00'], 
+		['MAX_FORCE', '1.00'], 
+		['MAX_FORCE_BG', '0.00'], 
+		['RAMP_DURATION', '100.00'], 
+		['RAND_START_DELAY', '250.00'], 
+		['REACH_TIME', '3000.00'], 
+		['START_HOLD_DELAY', '500.00'], 
+		['SUCCESS_DELAY', '300.00'], 
+		['TARG_DIST', '10.00'], 
+		['TRIAL_TIME', '3000.00']]</tasklevelparams>
+	<tasklevelparams_defs>[['TARG_DIST', 'float'], ['ADJUST_START', 'float'], ['MAX_FORCE', 'float'], ['MAX_FORCE_BG', 'float'], ['RAMP_DURATION', 'float'], ['AVOID_DIST_ADJUST', 'float'], ['START_HOLD_DELAY', 'float'], ['RAND_START_DELAY', 'float'], ['SUCCESS_DELAY', 'float'], ['ERROR_DELAY', 'float'], ['REACH_TIME', 'float'], ['TRIAL_TIME', 'float']]</tasklevelparams_defs>
+	<tasklevelparams_row_count>12</tasklevelparams_row_count>
+	<tptable>[[1, 2, 3, 4, 5, 6, 1, 0], 
+		[1, 2, 3, 4, 5, 7, 1, 0], 
+		[1, 2, 3, 4, 5, 8, 1, 0], 
+		[1, 2, 3, 4, 5, 9, 1, 0], 
+		[1, 2, 3, 4, 5, 10, 1, 0], 
+		[1, 2, 3, 4, 5, 11, 1, 0], 
+		[1, 2, 3, 4, 5, 12, 1, 1], 
+		[1, 2, 3, 4, 5, 13, 1, 1], 
+		[1, 2, 3, 4, 5, 14, 1, 1], 
+		[1, 2, 3, 4, 5, 15, 1, 1], 
+		[1, 2, 3, 4, 5, 16, 1, 1], 
+		[1, 2, 3, 4, 5, 17, 1, 1], 
+		[1, 2, 3, 4, 5, 18, 0, 0], 
+		[1, 2, 3, 4, 5, 19, 0, 0], 
+		[1, 2, 3, 4, 5, 20, 0, 0], 
+		[1, 2, 3, 4, 5, 21, 0, 0], 
+		[1, 2, 3, 4, 5, 22, 0, 0], 
+		[1, 2, 3, 4, 5, 23, 0, 0], 
+		[1, 2, 3, 4, 5, 24, 0, 1], 
+		[1, 2, 3, 4, 5, 25, 0, 1], 
+		[1, 2, 3, 4, 5, 26, 0, 1], 
+		[1, 2, 3, 4, 5, 27, 0, 1], 
+		[1, 2, 3, 4, 5, 28, 0, 1], 
+		[1, 2, 3, 4, 5, 29, 0, 1]]</tptable>
+	<tptable_defs>[['Start Target', 'target'], ['Avoid Target', 'target'], ['Begin target', 'target'], ['Label target', 'target'], ['Info Target', 'target'], ['Approach Target', 'target'], ['CS or AS', 'int'], ['Toggle Field', 'int']]</tptable_defs>
+	<tptable_row_count>100</tptable_row_count>
+	<use_repeat_trial_flag>1</use_repeat_trial_flag>
+	<version>3.9</version>
+	<version_tuple>(3, 10)</version_tuple>
+	<video>''</video>
+</task_protocol>
