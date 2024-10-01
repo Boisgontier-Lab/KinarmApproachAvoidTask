@@ -1,5 +1,5 @@
-The Kinarm Approach Avoidance Task is found in the Approach Avoid folder
+The Task folder contains the Kinarm Approach Avoid Task, Kinarm Approach Avoid Task model, the .dtp file for this task, all 24 active/sedentary/circle/square images, and instruction images to show images.
 
-READC3D and matlab scripts are used to analyze participant data. Both must be put in the matlab folder to run analysis
+The ReadC3D folder contains Kinarm-developed matlab scripts for analysing .kinarm and .c3d files.
 
-run extractApproachAvoidTask.m for analysis
+The Analysis folder contains the matlab scripts to analysize the Kinarm Approach Avoid Task. The only script required to run for analysis is the extractApproachAvoidTask.m matlab script. This script calls on other functions (find... series) to calculate parameters.
