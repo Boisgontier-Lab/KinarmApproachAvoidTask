@@ -8,3 +8,5 @@ First run the extractApproachAvoidTask.m to convert .kinarm files into matlab da
 Sample data represented as .xlsx files were extracted from .kinarm files using the analysis scripts. Due to the large size of the .kinarm files, they were not uploaded onto github but can be found on Zenodo, DOI:...
 
 Supplementary figures are found in the file "SUPPLEMENTARY MATERIAL.docx".
+
+An update to the task and analysis code has been made on May 28, 2026
