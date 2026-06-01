@@ -1,3 +1,5 @@
-function maxSpeed = findMaxSpeed(speed)
+function [maxSpeed maxSpeedTime] = findMaxSpeed(speed)
+%get maximum speed and time at maximum speed
 
-maxSpeed = round(max(speed)*100);
+[maxSpeedTemp, maxSpeedTime] = max(speed);
+maxSpeed = round(maxSpeedTemp*100);

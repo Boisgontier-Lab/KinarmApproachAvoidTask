@@ -1,12 +1,22 @@
-function speedPeaks = findSpeedPeaks(speed,j)
+function speedPeaks = findSpeedPeaks(speed,i,j,reactTime,onTime,maxSpeedTime)
+%get the number of speed peaks greater than 10% of maximum speed
+if (isempty(speed))
+    kk = 1;
+end
 
 [peaks] = findpeaks(speed);
 maxSpeed = max(speed);
 if (maxSpeed>max(peaks))
     peaks = [peaks; maxSpeed];
 end
-speedThresh = 0.25*maxSpeed;
+if (isempty(peaks))
+    peaks = maxSpeed;
+end
+speedThresh = 0.10*maxSpeed;
 speedPeaks = sum(peaks>speedThresh);
-if(speedPeaks == 0)
+% if (i == 1 && j == 104)
+%     kk = 1;
+% end
+if (speedPeaks == 0)
     error()
 end
